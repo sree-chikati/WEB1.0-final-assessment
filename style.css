@@ -14,3 +14,24 @@ main{
      display: flex;
      flex-direction: column;
  }
+
+ /* ---Use Flexbox to arrange the form elements --- */
+ #student-info{
+     display: flex;
+     flex-direction: column;
+ }
+
+ #data-input{
+    display: flex;
+    flex-direction: column;
+}
+
+ #headline-display{
+    display: flex;
+    flex-direction: column;
+}
+
+ #data-output{
+    display: flex;
+    flex-direction: column;
+}
