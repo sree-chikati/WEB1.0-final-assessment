@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+/* ---You're main container needs to have two children 
+ one of which will be the left column and the other will the right column. --- */
+ .input-elements{
+     display: flex;
+     flex-direction: column;
+ }
+
+ .display-elements{
+     display: flex;
+     flex-direction: column;
+ }

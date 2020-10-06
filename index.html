@@ -7,62 +7,71 @@
     </head>
 
     <body>
-         <!--SECTION 1: STUDENT INFO-->
-        <section id="student-info">
-            <h1>Sreenvitha Chikati</h1>
-            <p>My favorite color is purple and I wear Nike!</p>
+    <main>
+        <section class = "input-elements">
+            <!--SECTION 1: STUDENT INFO-->
+            <section id="student-info">
+                <h1>Sreenvitha Chikati</h1>
+                <p>My favorite color is purple and I wear Nike!</p>
+            </section>
+
+            <!--SECTION 2: DATA INPUT-->
+            <section id="data-input">
+                <h1>Font Styler</h1>
+                <label>
+                    Font Size
+                    <input id="input-size" type="number">
+                </label>
+
+                <label>
+                    Font Family
+                    <select id = "select-font">
+                        <option value = "Hevetica">Helvetica</option>
+                        <option value = "Arial">Arial</option>
+                        <option value = "Times New Roman">Times New Roman</option>
+                        <option value = "Georgia">Georgia</option>
+                    </select>
+                </label>
+
+                <label>
+                    Font Color 
+                    <input id="input-color" type="color" value="#000">
+                </label>
+
+                <label>
+                    Background Color
+                    <input id="input-bg-color" type="color" value="#fff">
+                </label>
+
+                <label>
+                    Enter Text 
+                    <textarea id="enter-text"></textarea>
+                </label>
+            </section>
+
         </section>
 
-        <!--SECTION 2: DATA INPUT-->
-        <section id="data-input">
-            <h1>Font Styler</h1>
-            <label>
-                Font Size
-                <input id="input-size" type="number">
-            </label>
+        
+        <section class = "display-elements">
+            <!--SECTION 3: HEADLINE DISPLAY-->
+            <section id="headline-display">
+                <h1 id="display"></h1>
+            </section>
 
-            <label>
-                Font Family
-                <select id = "select-font">
-                    <option value = "Hevetica">Helvetica</option>
-                    <option value = "Arial">Arial</option>
-                    <option value = "Times New Roman">Times New Roman</option>
-                    <option value = "Georgia">Georgia</option>
-                </select>
-            </label>
+            <!--SECTION 4: DATA OUTPUT-->
+            <section id="data-output">
+                <h1>Font Settings</h1>
+                <pre><code>.headline {
+                    font-size: <span id="show-size">16</span>px;
+                    font-family: <span id="show-font">Times</span>;
+                    color: <span id="show-color">#000</span>;
+                    background-color: <span id="show-bg-color">#fff</span>;
+                }</code></pre>
+            </section>
 
-            <label>
-                Font Color 
-                <input id="input-color" type="color" value="#000">
-            </label>
-
-            <label>
-                Background Color
-                <input id="input-bg-color" type="color" value="#fff">
-            </label>
-
-            <label>
-                Enter Text 
-                <textarea id="enter-text"></textarea>
-            </label>
         </section>
 
-         <!--SECTION 3: HEADLINE DISPLAY-->
-        <section id="headline-display">
-            <h1 id="display"></h1>
-        </section>
-
-        <!--SECTION 4: DATA OUTPUT-->
-        <section id="data-output">
-            <h1>Font Settings</h1>
-            <pre><code>.headline {
-                font-size: <span id="show-size">16</span>px;
-                font-family: <span id="show-font">Times</span>;
-                color: <span id="show-color">#000</span>;
-                background-color: <span id="show-bg-color">#fff</span>;
-            }</code></pre>
-        </section>
-
-
+         
+    </main>        
     </body>
 </html>
