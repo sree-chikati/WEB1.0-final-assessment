@@ -1,6 +1,9 @@
 main{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ---You're main container needs to have two children 
@@ -8,11 +11,14 @@ main{
  .input-elements{
      display: flex;
      flex-direction: column;
+     margin: 0 3rem;
+     padding: 1rem;
  }
 
  .display-elements{
      display: flex;
      flex-direction: column;
+     margin: 0 3rem;
  }
 
  /* ---Use Flexbox to arrange the form elements --- */
@@ -24,11 +30,16 @@ main{
  #data-input{
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+    border: 2px solid black;
 }
 
  #headline-display{
     display: flex;
     flex-direction: column;
+    padding: 2rem;
+    border: 2px solid black;
+    text-align: center;
 }
 
  #data-output{
