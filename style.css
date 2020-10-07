@@ -1,3 +1,11 @@
+/* ---- IMPORTS ---- */ 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@500&family=Roboto+Condensed:wght@300&family=Sacramento&display=swap');
+/* 
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Sacramento', cursive; 
+*/
 main{
     display: flex;
     flex-direction: row;

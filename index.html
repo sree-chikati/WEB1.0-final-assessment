@@ -30,6 +30,29 @@
                         <option value = "Arial">Arial</option>
                         <option value = "Times New Roman">Times New Roman</option>
                         <option value = "Georgia">Georgia</option>
+                        <option value = "Oswald">Oswald</option>
+                        <option value = "Open Sans Condensed">Open Sans Condensed</option>
+                        <option value = "Roboto Condensed">Roboto Condensed</option>
+                        <option value = "Sacramento">Sacramento</option>
+                    </select>
+                </label>
+
+                <label>
+                    Font Style<br>
+                    <select id = "select-style">
+                        <option value = "Normal">Normal</option>
+                        <option value = "Italic">Italic</option>
+                        <option value = "Oblique">Oblique</option>
+                    </select>
+                </label>
+
+                <label>
+                    Font Weight<br>
+                    <select id = "select-weight">
+                        <option value = "Normal">Normal</option>
+                        <option value = "Lighter">Lighter</option>
+                        <option value = "Bold">Bold</option>
+                        <option value = "Bolder">Bolder</option>
                     </select>
                 </label>
 
@@ -41,6 +64,16 @@
                 <label>
                     Background Color<br>
                     <input id="input-bg-color" type="color" value="#fff">
+                </label>
+
+                <label>
+                    Letter Spacing<br>
+                    <input id="input-space" type="number">
+                </label>
+
+                <label>
+                    Padding<br>
+                    <input id="input-padding" type="number">
                 </label>
 
                 <label>
@@ -64,8 +97,12 @@
                 <pre><code>.headline {
                     font-size: <span id="show-size">16</span>px;
                     font-family: <span id="show-font">Times</span>;
+                    font-style: <span id="show-style">Oblique</span>;
+                    font-weight: <span id="show-weight">Normal</span>;
                     color: <span id="show-color">#000</span>;
                     background-color: <span id="show-bg-color">#fff</span>;
+                    letter-spacing: <span id="show-space">1</span>;
+                    padding: <span id="show-padding">1</span>;
                 }</code></pre>
             </section>
 
