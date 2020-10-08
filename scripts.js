@@ -46,7 +46,7 @@ function handleInput() {
     console.log(fontSize)
     showSize.innerHTML = fontSize
     
-    //Show Font Style
+    //Show Font Family
     const fontFamily = selectFont.value
     display.style['font-family'] = fontFamily
     console.log(fontFamily)
